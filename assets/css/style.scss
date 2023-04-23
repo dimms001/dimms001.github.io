@@ -4,11 +4,23 @@
 @import "{{ site.theme }}";
 
 body {
-font-size: .95em;
+  font-size: .95em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.3rem;
 }
 
 footer {
   p {
-  float: right !important;
+    float: right !important;
   }
 }
