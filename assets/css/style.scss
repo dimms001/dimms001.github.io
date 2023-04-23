@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
 
 body {
-font-size: 1.4em;
+font-size: .95em;
 }
 
 .view {
-display: none;
+display: none !important;
 }
